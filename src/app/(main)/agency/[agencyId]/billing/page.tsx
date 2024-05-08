@@ -59,7 +59,7 @@ const page = async ({ params }: Props) => {
         charge.created * 1000
       ).toLocaleDateString()}`,
       status: 'Paid',
-      amount: `$${charge.amount / 100}`,
+      amount: `₹${charge.amount / 100}`,
     })),
   ]
 
